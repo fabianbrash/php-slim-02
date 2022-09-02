@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tap-php-web-app-2
+  description: Tanzu PHP Web App
+  tags:
+    - app-accelerator
+    - php
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tap-php-web-app-2'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: fb-team
